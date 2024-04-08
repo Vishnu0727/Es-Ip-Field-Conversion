@@ -1,0 +1,10 @@
+{"index":{"_index":"r1"}}
+{"remip":"172.0.0.1"}
+{"index":{"_index":"r1"}}
+{"remip":"172.0.0.2"}
+{"index":{"_index":"r2"}}
+{"remip":"172.20.76.30"}
+{"index":{"_index":"r2"}}
+{"remip":"172.20.65.124"}
+{"index":{"_index":"r2"}}
+{"remip":"172.20.65.125"}
