@@ -1,6 +1,7 @@
 
 Index Creation : 
   Index r1 - curl -XPUT "http://localhost:9200/r1?pretty" -H 'Content-Type: application/json' -d '{"mappings": {"properties": {"remip": {"type": "keyword"}}}}'
+  
   Index r2 - curl -XPUT "http://localhost:9200/r2?pretty" -H 'Content-Type: application/json' -d '{"mappings": {"properties": {"remip": {"type": "ip"}}}}'
 
 Indexing docs : (remote_ip_string_ip_datatype_change file added in this repo)
