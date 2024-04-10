@@ -1,4 +1,4 @@
-
+ES Version : 7.10.2
 Index Creation : 
  
    Index r1 - curl -XPUT "http://localhost:9200/r1?pretty" -H 'Content-Type: application/json' -d '{"mappings": {"properties": {"remip": {"type": "keyword"}}}}'
